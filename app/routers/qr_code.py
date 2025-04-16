@@ -1,4 +1,5 @@
 # Import necessary modules and functions from FastAPI and other standard libraries
+# connected to docker
 from fastapi import APIRouter, HTTPException, Depends, Response, status
 from fastapi.responses import JSONResponse
 from fastapi.security import OAuth2PasswordBearer
