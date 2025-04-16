@@ -64,7 +64,7 @@ jobs:
       - name: Scan the Docker image
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: 'mikeygman11/fix-broken-code:${{ github.sha }}'
+          image-ref: 'mikeygman11/fix-broken-code:${{ github.sha }}' #git and docker username
           format: 'table'
           exit-code: '1'
           ignore-unfixed: true
